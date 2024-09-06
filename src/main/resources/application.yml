@@ -1,4 +1,5 @@
-server:
- port: 4444
- servlet:
-    context-path: /te/taro
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
